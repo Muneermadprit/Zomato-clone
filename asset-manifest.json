@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zomato-clone/static/css/main.c23ac881.css",
-    "main.js": "/Zomato-clone/static/js/main.238a2b9a.js",
+    "main.js": "/Zomato-clone/static/js/main.8531af55.js",
     "static/js/787.9c166d28.chunk.js": "/Zomato-clone/static/js/787.9c166d28.chunk.js",
     "static/media/restaurentlogin3.png": "/Zomato-clone/static/media/restaurentlogin3.f5a99f4f0ea597eafc52.png",
     "static/media/fa-solid-900.svg": "/Zomato-clone/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
@@ -23,11 +23,11 @@
     "static/media/logo.svg": "/Zomato-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Zomato-clone/index.html",
     "main.c23ac881.css.map": "/Zomato-clone/static/css/main.c23ac881.css.map",
-    "main.238a2b9a.js.map": "/Zomato-clone/static/js/main.238a2b9a.js.map",
+    "main.8531af55.js.map": "/Zomato-clone/static/js/main.8531af55.js.map",
     "787.9c166d28.chunk.js.map": "/Zomato-clone/static/js/787.9c166d28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c23ac881.css",
-    "static/js/main.238a2b9a.js"
+    "static/js/main.8531af55.js"
   ]
 }
