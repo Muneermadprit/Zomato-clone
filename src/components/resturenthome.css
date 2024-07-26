@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrant:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat',sans-serif;
+  
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+}
+.logos{
+    text-align: center;
+    padding: 20px;
+    color:#27374d;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.logo-icon{
+    font-size: 1.4rem;
+}
+.menu--list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu--list .item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #27374d;
+}
+.menu--list .item:hover{
+    background: #27374d;
+    color: #dde6ed;
+}
+.dashboard{
+    display: flex;
+    gap: 20px;
+}
+.dashbord--content{
+    background: #fff;
+    flex: 1;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.cotent-new{
+width: 72%;
+}
+.content--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.headertittle{
+    color: #526d82;
+}
+.headeractivity{
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+.card--container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 2rem;
+    width: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card-bodys{
+    flex: 1;
+    background: #dde6ed;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 170px;
+    width: 40%;
+}
+.card-bodys:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.cards--cover{
+    background: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #969393;
+ 
+}
+.cards--tittle{
+    background: #ffffffc0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #526d82;
+    border-radius: 10px;
+}
+.resturentadd{
+    background: #ffffffc0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #526d82;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.resturentadd:hover{
+    transform: scale(1.04);
+    background-color: pink;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .dashboard {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dashbord--content {
+        flex-direction: column;
+    }
+    .cotent {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .logos {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu {
+        height: auto;
+    }
+    .headeractivity {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu--list .item {
+        font-size: 1rem;
+        gap: 15px;
+    }
+    .cards {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashbord--content {
+        padding: 1rem;
+    }
+    .cards {
+        height: auto;
+        padding: 15px;
+    }
+    .cards--cover {
+        font-size: 2rem;
+    }
+    .cards--tittle, .resturentadd {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
+
+
+.list-headers{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.lists{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+
+
+}
+.list-containers{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.food--details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+}
+
+.food-image{
+    width: 100px;
+    height :50px;
+    background-color: #dde6ed;
+    border-radius: 50%;
+
+}
+.lists:hover{
+    background: #dde6ed;
+    border-radius: 10px;
+
+}
+
+.resturentprofile{
+    flex: 1;
+
+}
+.rest-pro-header--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.edit{
+    background:#dde6ed;
+    padding: 12px;
+    border-radius: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.edit-icon{
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+
+}
+.resturent-prof-page{
+    height: 85%;
+    margin-top: 2rem;
+   
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.prof-page{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.res-pro-img{
+    background:#dde6ed;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+
+}
+.rest-username{
+    color: #526d82;
+
+}
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-inner {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+   justify-content: flex-start;
+    background-image: url('./assets/app.jpg');
+    width:350px;
+    height:450px;
+    background-size: cover;
+
+    
+  }
+  

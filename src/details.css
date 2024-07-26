@@ -1,0 +1,265 @@
+/* Default styles */
+.profileheader-details {
+    width: 80%;
+    height: 300px;
+    background-color: red;
+    margin-left: 10%;
+    display: flex;
+  }
+  
+  .profilecontainer-edit {
+    width: 150px;
+    height: 150px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    border-radius: 50%;
+    position: relative;
+    margin-top: 90px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    border-color: white;
+    border-style: solid;
+  }
+  
+  .contents-edit {
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 300px;
+  }
+  
+  .editprofile-edit {
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    margin-left: 250px;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+    padding-top: 20px;
+  }
+  
+  .review-edit,
+  .photos-edit,
+  .followers-edit {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    border-right: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-bottom: 100px;
+    color: white;
+  }
+  
+  .review-edit {
+    left: 50px;
+  }
+  
+  .photos-edit {
+    margin-left: 180px;
+    padding-left: 20px;
+  }
+  
+  .followers-edit {
+    margin-left: 300px;
+    padding-left: 20px;
+  }
+  
+  .container-details {
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  
+  .review-box {
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+  
+  .resturent-datas {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+  }
+  
+  .sidecontainer-resturent {
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+  }
+  
+  .sidecontents-resturent {
+    width: 300px;
+    height: auto;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: grey;
+    border-width: 4px;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+  }
+  
+  .options-resturent {
+    width: 270px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    color: grey;
+  }
+  
+  .options-resturent:hover {
+    background-color: wheat;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  
+  .resturent-listside {
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    margin-left: 300px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1200px) {
+    .profileheader-details {
+      width: 100%;
+      margin-left: 0;
+     
+    }
+  
+    .container-details {
+      width: 80%;
+      margin-left: 10%;
+   
+      
+
+    }
+
+    .container-details p{
+        font-size: 15px;
+        
+    }
+  
+    .review-box {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .resturent-listside {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      flex-direction: column;
+     
+    }
+  
+    .sidecontainer-resturent {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .sidecontents-resturent {
+      width: 100%;
+      display: none;
+    }
+  
+    .options-resturent {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .profilecontainer-edit {
+      width: 100px;
+      height: 100px;
+      font-size: 50px;
+    }
+  
+    .contents-edit {
+      width: 100%;
+    }
+  
+    .editprofile-edit {
+      margin-left: 20px;
+      margin-top: 50px;
+    }
+  
+    .review-edit,
+    .photos-edit,
+    .followers-edit {
+      width: 100px;
+      height: 40px;
+      padding-bottom: 80px;
+    }
+  
+    .photos-edit {
+      margin-left: 140px;
+    }
+  
+    .followers-edit {
+      margin-left: 240px;
+    }
+  
+    .container-details {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    .resturent-datas {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container-details {
+      width: 100%;
+      margin-left: 0;
+      font-size: 18px;
+    }
+  
+    .review-box {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .resturent-listside {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .sidecontainer-resturent {
+      width: 100%;
+    }
+  
+    .sidecontents-resturent {
+      width: 100%;
+      border-width: 2px;
+    }
+  
+    .options-resturent {
+      width: 95%;
+      margin-left: 2.5%;
+    }
+  }
+  

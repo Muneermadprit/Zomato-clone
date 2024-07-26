@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Ultra&display=swap');
+
+.footer-logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin-bottom: 50px;
+    height: auto;
+ 
+}
+.mainhead{
+    font-weight: bolder;
+    
+}
+.footer{
+padding-top: 40px;
+
+}
+.fotermobile{
+    width:200px;
+    height: 500px;
+    background-color: red;
+}
